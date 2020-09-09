@@ -8,7 +8,7 @@ body {
 	
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-color: rgba(166,216,212);
+	background-color: #ffffff;
 	color: #000;
 	display: flex;
 	font-family: 'Roboto Mono', monospace;
@@ -57,14 +57,15 @@ input[type="email"]{
 	padding: 10px 30px;
 	width: 70%;
 	border-radius: 20px;
-	border:#000;
+	border-style: solid;
+	color: #000;
 	font-size: 18px;
 }
 
 
 button {
+	background-color: #ffffff;
 	margin-top: 30px;
-	background-color: rgba(166,216,212);
 	border-radius: 20px;
 	border-style: solid;
 	color: #000;
