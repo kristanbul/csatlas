@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap');
-
+=
 * {
 	box-sizing: border-box;
 }
@@ -105,6 +104,9 @@ button:hover{
 }
 
 @media screen and (max-width: 768px) {
+	.container{
+		height: 100vh;
+	}
 	.flex {
 		flex-direction: column;
 		margin: 50px 0;
